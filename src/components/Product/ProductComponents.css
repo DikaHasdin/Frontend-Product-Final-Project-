@@ -1,0 +1,66 @@
+.card-kecil {
+    background-color: aliceblue;
+    width: 65px;
+    height: 70px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.card-kecil > img {
+    width: 65px;
+    height: 70px;
+}
+
+.card-kecil:hover {
+    background-color: aliceblue;
+    width: 65px;
+    height: 70px;
+    background-color: rgba(17, 17, 17, 0.15);
+}
+
+.list-size {
+    border: 1.5px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-size-active {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-size:hover {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-size > div {
+    display: flex;
+    justify-content: center;
+}
+
+.list-size-active > div {
+    display: flex;
+    justify-content: center;
+}
+
+.ketPengiriman {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ketPengiriman > ul {
+    margin-left: 15px;
+}
